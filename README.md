@@ -10,10 +10,11 @@ Can recession probability predicted by yield spread improve bond allocation timi
 - Monthly data, 1990–2025
 
 ## Methodology
-1. Logistic regression predicting recession probability (12M ahead)
-2. Regime classification (High vs Low recession probability)
-3. Bond timing strategy based on predicted regime
-4. Backtest and performance comparison vs Buy & Hold
+• Logistic regression AUC: 0.89 (strong recession predictive power)
+• Yield spread strongly predicts recession probability
+• However, regime-based bond timing does not consistently generate excess returns
+• Results suggest macro predictive signals do not directly translate into bond alpha
+
 
 ## Key Results
 - Logistic regression AUC: 0.89
